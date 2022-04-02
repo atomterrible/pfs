@@ -12,10 +12,10 @@
       <h5>Navigate</h5>
       <nav>
         <ul>
-          <li><nuxt-link to="work">Work</nuxt-link></li>
-          <li><nuxt-link to="services">Services</nuxt-link></li>
-          <li><nuxt-link to="about">About</nuxt-link></li>
-          <li><nuxt-link to="contact">Contact</nuxt-link></li>
+          <li><nuxt-link to="/work">Work</nuxt-link></li>
+          <li><nuxt-link to="/services">Services</nuxt-link></li>
+          <li><nuxt-link to="/about">About</nuxt-link></li>
+          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
         </ul>
       </nav>
     </div>

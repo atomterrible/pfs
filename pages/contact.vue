@@ -8,12 +8,12 @@
         <a href="tel:19403674447">940-367-4447</a>. For all other questions, please use the form below.
       </p>
       <br />
-      <form action="action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your first name.." />
+      <form name="contact" netlify>
+        <label for="name">First Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." />
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+        <label for="email">Last Name</label>
+        <input type="text" id="email" name="email" placeholder="Your email.." />
 
         <label for="subject">Message</label>
         <textarea id="subject" name="subject" placeholder="How can I help?" style="height: 200px"></textarea>

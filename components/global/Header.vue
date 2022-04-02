@@ -5,10 +5,10 @@
       <nav>
         <ul v-on:click="isHidden = !isHidden">
           <li><nuxt-link to="/">Home</nuxt-link></li>
-          <li><nuxt-link to="work">Work</nuxt-link></li>
-          <li><nuxt-link to="services">Services</nuxt-link></li>
-          <li><nuxt-link to="about">About</nuxt-link></li>
-          <li><nuxt-link to="contact">Contact</nuxt-link></li>
+          <li><nuxt-link to="/work">Work</nuxt-link></li>
+          <li><nuxt-link to="/services">Services</nuxt-link></li>
+          <li><nuxt-link to="/about">About</nuxt-link></li>
+          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -38,7 +38,7 @@
   @apply fixed flex w-screen h-screen place-content-center place-items-center bg-dark text-center z-50 left-0 top-0 overflow-hidden;
 
   .close {
-    @apply absolute block right-5 top-0 text-white p-4 text-2xl font-bold bg-primary leading-none;
+    @apply absolute block right-0 top-0 text-white p-4 text-2xl font-bold bg-primary leading-none;
   }
 
   ul {

@@ -1,11 +1,13 @@
 <template>
   <main>
     <section class="hero">
-      <div class="text">
-        <h1 class="max-w-2xl m-auto border-b-2 border-white pb-6">
-          Production Film & TV Sound Mixing, Location Sound Recording, and Gear Rentals
-        </h1>
-        <h4>Based in Spokane, Washington<br />Available for International Travel</h4>
+      <div class="overlay">
+        <div class="text">
+          <h1 class="max-w-2xl m-auto border-b-2 border-white pb-6">
+            Production Film & TV Sound Mixing, Location Sound Recording, and Gear Rentals
+          </h1>
+          <h4>Based in Spokane, Washington<br />Available for International Travel</h4>
+        </div>
       </div>
     </section>
     <section class="jokes" id="joke">
@@ -32,12 +34,12 @@
       <div class="mixing">
         <h2>Audio Mixing</h2>
         <p>Experienced, high quality mixing services starting at $800 per day.</p>
-        <nuxt-link class="btn" to="mixing">View Pricing</nuxt-link>
+        <nuxt-link class="btn" to="/services#mixing">View Pricing</nuxt-link>
       </div>
       <div class="rentals">
         <h2>Gear Rentals</h2>
         <p>Professional film quality equipment packages starting at $250/day.</p>
-        <nuxt-link class="btn" to="rentals">View Gear</nuxt-link>
+        <nuxt-link class="btn" to="/services#rentals">View Gear</nuxt-link>
       </div>
     </section>
     <section class="featured">
@@ -66,39 +68,11 @@
 </template>
 
 <style lang="postcss" scoped>
-.carousel {
-  @apply relative w-full h-[500px] text-center;
-
-  .contain {
-    @apply flex w-full h-full place-content-center place-items-center flex-col;
-    background-size: cover;
-    background: no-repeat center center;
-
-    .overlay {
-      @apply flex w-full h-full py-40 px-20 place-content-center place-items-center flex-col;
-      background: rgba(0, 0, 0, 0.5);
-
-      .content {
-        @apply z-50;
-
-        p {
-          @apply max-w-[600px];
-        }
-
-        .btn {
-          @apply mt-6;
-        }
-      }
-    }
-  }
-}
-
 .hero {
   background: right center / cover no-repeat
     url('https://images.unsplash.com/photo-1632187981988-40f3cbaeef5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=100');
   .text {
-    @apply text-white text-center py-40;
-    background: linear-gradient(45deg, #000000ff, #00000033);
+    @apply text-white text-center py-14 md:py-40;
   }
 }
 
@@ -138,6 +112,33 @@
   }
   .rentals {
     @apply bg-primary-700;
+  }
+}
+
+.carousel {
+  @apply relative w-full h-[500px] text-center;
+
+  .contain {
+    @apply flex w-full h-full place-content-center place-items-center flex-col;
+    background-size: cover;
+    background: no-repeat center center;
+
+    .overlay {
+      @apply flex w-full h-full py-40 px-20 place-content-center place-items-center flex-col;
+      background: rgba(0, 0, 0, 0.5);
+
+      .content {
+        @apply z-50;
+
+        p {
+          @apply max-w-[600px];
+        }
+
+        .btn {
+          @apply mt-6;
+        }
+      }
+    }
   }
 }
 

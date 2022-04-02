@@ -1,7 +1,7 @@
 <template>
   <main class="flex gap-4 py-4">
     <h1 class="hidden">Production Sound Mixing & Location Sound Recording with Sound Mixing & Recording Kit Rentals</h1>
-    <section class="mixing">
+    <section class="mixing" id="mixing">
       <div class="intro" :style="{ backgroundImage: `url('${mixing.cover}')` }">
         <div class="overlay">
           <div class="content">
@@ -17,7 +17,7 @@
         </div>
       </div>
     </section>
-    <section class="intro" :style="{ backgroundImage: `url('${rentals.cover}')` }">
+    <section id="rentals" class="intro" :style="{ backgroundImage: `url('${rentals.cover}')` }">
       <div class="overlay">
         <div class="content">
           <h2>{{ rentals.title }}</h2>
