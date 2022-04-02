@@ -1,21 +1,11 @@
 <template>
   <div class="flex w-full">
-    <aside class="w-1/4 bg-primary-800">
-      <nav class="m-4" aria-label="go back">
+    <main class="bg-primary-700">
+      <nav class="mt-6 ml-6" aria-label="go back">
         <router-back class="block" />
       </nav>
-      <div class="post" v-if="post">
-        <div v-for="(pst, index) in post" :key="index">
-          <nuxt-link :to="`/work/${pst.slug}`">
-            <h4>{{ pst.title }}</h4>
-            <p>{{ pst.body }}</p>
-          </nuxt-link>
-        </div>
-      </div>
-    </aside>
-    <main class="w-3/4 bg-primary-700">
       <article v-if="post" class="w-full py-10">
-        <h1 class="">{{ post.title }}</h1>
+        <h1>{{ post.title }}</h1>
         <h6>
           {{ post.subtitle }} • <span v-if="post.createdAt">{{ formatDate(post.createdAt) }}</span>
         </h6>
