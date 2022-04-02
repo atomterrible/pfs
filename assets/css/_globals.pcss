@@ -12,20 +12,18 @@ body {
   @apply transition-colors duration-200 ease-in-out text-white;
 }
 
-.overlay {
-  @apply flex w-full h-full left-0 top-0;
-  background: rgba(0, 0, 0, 0.6);
+section {
+  background: no-repeat center / cover;
+
+  .overlay {
+    @apply w-full h-full backdrop-brightness-50 py-24 px-6 md:px-12 lg:py-24;
+  }
+
+  .box {
+    @apply max-w-prose mx-auto;
+  }
 }
 
-a.nuxt-link-exact-active {
-  @apply text-accent;
-}
-
-.nuxt-content h1 > a::before,
-.nuxt-content h2 > a::before,
-.nuxt-content h3 > a::before,
-.nuxt-content h4 > a::before,
-.nuxt-content h5 > a::before,
-.nuxt-content h6 > a::before {
-  display: none;
+div {
+  background: no-repeat center / cover;
 }

@@ -1,5 +1,18 @@
 <template>
   <div class="flex w-full">
+    <aside class="w-1/4 bg-primary-800">
+      <nav class="m-4" aria-label="go back">
+        <router-back class="block" />
+      </nav>
+      <div class="post" v-if="post">
+        <div v-for="(pst, index) in post" :key="index">
+          <nuxt-link :to="`/work/${pst.slug}`">
+            <h4>{{ pst.title }}</h4>
+            <p>{{ pst.body }}</p>
+          </nuxt-link>
+        </div>
+      </div>
+    </aside>
     <main class="w-3/4 bg-primary-700">
       <article v-if="post" class="w-full py-10">
         <h1 class="">{{ post.title }}</h1>
@@ -12,11 +25,6 @@
         <nuxt-content :document="post" />
       </article>
     </main>
-    <aside class="w-1/4 bg-primary-800">
-      <nav class="m-4" aria-label="go back">
-        <router-back class="block" />
-      </nav>
-    </aside>
   </div>
 </template>
 

@@ -12,10 +12,10 @@
       <h5>Navigate</h5>
       <nav>
         <ul>
-          <li><nuxt-link to="work">Work</nuxt-link></li>
-          <li><nuxt-link to="services">Services</nuxt-link></li>
-          <li><nuxt-link to="about">About</nuxt-link></li>
-          <li><nuxt-link to="contact">Contact</nuxt-link></li>
+          <li><nuxt-link to="/work">Work</nuxt-link></li>
+          <li><nuxt-link to="/services">Services</nuxt-link></li>
+          <li><nuxt-link to="/about">About</nuxt-link></li>
+          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -42,24 +42,18 @@
 
 <style lang="postcss" scoped>
 footer {
-  @apply flex w-full m-auto place-content-center place-items-center flex-col p-6 md:flex-row max-w-[1100px] justify-items-stretch justify-between items-start content-between;
+  @apply flex w-full bg-primary-800 m-auto place-content-center place-items-center flex-col p-6 text-center lg:flex-row lg:justify-items-stretch lg:justify-between lg:items-start lg:content-start lg:text-left lg:p-14;
 
   div {
-    @apply p-4;
+    @apply p-4 m-auto lg:m-0 lg:p-0;
+  }
+
+  h5 {
+    @apply mb-2;
   }
 
   .logo {
-    @apply max-w-[140px] pb-6;
-  }
-
-  .menu {
-    nav {
-      @apply flex w-full place-content-stretch place-items-stretch gap-10;
-    }
-  }
-
-  #copyright {
-    @apply text-center;
+    @apply max-w-[140px] mb-6 m-auto lg:m-0;
   }
 
   li {
