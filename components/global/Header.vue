@@ -14,7 +14,7 @@
     </div>
     <section class="head">
       <div class="logo">
-        <nuxt-link to="/"><img src="img/logo.png" alt="Pro Film Sound Logo" /></nuxt-link>
+        <nuxt-link to="/"><img src="~/static/img/logo.png" alt="Pro Film Sound Logo" /></nuxt-link>
       </div>
       <div class="menu">
         <nav>
@@ -83,7 +83,7 @@ header {
 }
 
 .announcement {
-  @apply text-base bg-secondary-800 text-white p-4 text-center uppercase tracking-widest font-bold;
+  @apply text-lg bg-secondary-800 text-white p-4 text-center uppercase tracking-widest font-bold;
 }
 </style>
 

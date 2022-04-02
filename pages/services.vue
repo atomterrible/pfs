@@ -27,7 +27,9 @@
     </section>
     <section class="equipment">
       <div v-for="(cat, index) in rentals.categories" :key="index">
-        <h4>{{ cat.name }}</h4>
+        <h4>
+          <b>{{ cat.name }}</b>
+        </h4>
         <ul v-for="(item, index) in cat.items" :key="index">
           <li>
             {{ item.name }} | <b>{{ item.price }}</b>
@@ -37,7 +39,7 @@
     </section>
     <section class="misc">
       <div>
-        <h4>Miscellaneous</h4>
+        <h4><b>Miscellaneous</b></h4>
         <ul>
           <li>
             Earbuds, connectors, adapters, cables, USB battery banks, microphone mounting doodads, sticky things, SD
@@ -77,8 +79,12 @@
   div {
     @apply bg-secondary-700 p-6 lg:p-10;
 
+    h4 {
+      @apply mb-4;
+    }
+
     li {
-      @apply leading-relaxed;
+      @apply leading-relaxed mb-3;
     }
   }
 }

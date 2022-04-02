@@ -12,7 +12,7 @@
     <section class="body">
       <div class="left" :style="{ backgroundImage: `url(${bodyimage})` }"></div>
       <div class="right">
-        <p class="text-md">{{ body }}</p>
+        <p class="text-lg">{{ body }}</p>
       </div>
     </section>
     <section v-if="gallery.length > 0" class="gallery">
