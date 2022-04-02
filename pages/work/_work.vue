@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full">
     <main class="bg-primary-700">
-      <nav class="m-6" aria-label="go back">
+      <nav class="mt-6 ml-6" aria-label="go back">
         <router-back class="block" />
       </nav>
       <article v-if="post" class="w-full py-10">
