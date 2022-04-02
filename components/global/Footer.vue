@@ -42,10 +42,10 @@
 
 <style lang="postcss" scoped>
 footer {
-  @apply flex w-full bg-primary-800 m-auto place-content-center place-items-center flex-col p-6 text-center lg:flex-row lg:justify-items-stretch lg:justify-between lg:items-start lg:content-start lg:text-left lg:p-14;
+  @apply flex w-full bg-primary-800 mx-auto place-content-center place-items-center flex-col p-6 text-center lg:flex-row lg:justify-items-stretch lg:justify-between lg:items-start lg:content-start lg:text-left lg:p-14;
 
   div {
-    @apply p-4 m-auto lg:m-0 lg:p-0;
+    @apply p-4 mx-auto lg:m-0 lg:p-0;
   }
 
   h5 {
