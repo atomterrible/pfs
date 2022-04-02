@@ -10,13 +10,19 @@
       <br />
       <form name="Contact" method="POST" data-netlify="true" netlify>
         <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name.." />
+        <input class="p-2" type="text" id="name" name="name" placeholder="Your name.." />
 
         <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email.." />
+        <input class="p-2" type="text" id="email" name="email" placeholder="Your email.." />
 
         <label for="subject">Message</label>
-        <textarea id="subject" name="subject" placeholder="How can I help?" style="height: 200px"></textarea>
+        <textarea
+          class="p-2"
+          id="subject"
+          name="subject"
+          placeholder="How can I help?"
+          style="height: 200px"
+        ></textarea>
 
         <input class="btn" type="submit" value="Send" />
       </form>
