@@ -9,10 +9,10 @@
       </p>
       <br />
       <form name="contact" netlify>
-        <label for="name">First Name</label>
+        <label for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Your name.." />
 
-        <label for="email">Last Name</label>
+        <label for="email">Email</label>
         <input type="text" id="email" name="email" placeholder="Your email.." />
 
         <label for="subject">Message</label>
