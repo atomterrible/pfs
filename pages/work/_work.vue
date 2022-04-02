@@ -1,9 +1,6 @@
 <template>
   <div class="flex w-full">
     <main class="bg-primary-700">
-      <nav class="mt-6 ml-6" aria-label="go back">
-        <router-back class="block" />
-      </nav>
       <article v-if="post" class="w-full py-10">
         <h1>{{ post.title }}</h1>
         <h6>
