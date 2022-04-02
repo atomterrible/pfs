@@ -20,10 +20,10 @@
         <nav>
           <ul>
             <li><nuxt-link to="/">Home</nuxt-link></li>
-            <li><nuxt-link to="work">Work</nuxt-link></li>
-            <li><nuxt-link to="services">Services</nuxt-link></li>
-            <li><nuxt-link to="about">About</nuxt-link></li>
-            <li><nuxt-link to="contact">Contact</nuxt-link></li>
+            <li><nuxt-link to="/work">Work</nuxt-link></li>
+            <li><nuxt-link to="/services">Services</nuxt-link></li>
+            <li><nuxt-link to="/about">About</nuxt-link></li>
+            <li><nuxt-link to="/contact">Contact</nuxt-link></li>
           </ul>
         </nav>
         <button class="btn alt lg:hidden" v-on:click="isHidden = !isHidden">MENU</button>
@@ -53,12 +53,17 @@
 header {
   width: 100%;
 }
+
 .head {
   @apply flex w-full place-content-between place-items-center p-6;
 }
 
+.btn {
+  @apply m-0;
+}
+
 .logo img {
-  @apply w-full h-10 pr-5 md:h-12;
+  @apply w-full h-auto pr-8 md:h-12;
 }
 
 .menu {

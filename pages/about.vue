@@ -30,11 +30,11 @@ section {
 
 .intro {
   .left {
-    @apply pb-6 md:w-2/3  lg:py-36 lg:px-10 lg:max-w-[600px];
+    @apply pb-6 lg:w-2/3 lg:py-36 lg:px-10;
   }
 
   .right {
-    @apply h-48 md:w-1/3 md:h-auto;
+    @apply h-48 lg:w-1/3 lg:h-auto;
     background: no-repeat center center;
     background-size: cover;
   }
@@ -48,21 +48,21 @@ section {
   @apply bg-secondary-100 flex-col-reverse lg:flex-row;
 
   .left {
-    @apply h-48 md:w-1/3 md:h-auto;
+    @apply h-48 lg:w-1/3 lg:h-auto;
     background: no-repeat center right;
     background-size: cover;
   }
 
   .right {
-    @apply pb-6 text-dark md:w-2/3 lg:py-36 lg:px-10 lg:max-w-[600px];
+    @apply pb-6 text-dark lg:w-2/3 lg:py-36 lg:px-10;
   }
 }
 
 .gallery {
-  @apply grid grid-cols-2 gap-6 p-6 md:grid-cols-4;
+  @apply grid grid-cols-2 gap-6 p-6 lg:grid-cols-4;
 
   .img {
-    @apply grid w-full h-28 md:h-48;
+    @apply grid w-full h-28 lg:h-48;
     background: no-repeat center center;
     background-size: cover;
   }

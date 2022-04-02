@@ -1,5 +1,5 @@
 <template>
-  <section v-if="posts.length > 0" class="cards">
+  <section v-if="posts.length > 0" class="cards text-left">
     <div v-for="(post, index) in posts" :key="index" class="container">
       <nuxt-link :to="`${postType}/${post.slug}`" class="card card--clickable">
         <div class="banner" :style="{ backgroundImage: `url(${post.cover})` }">

@@ -1,20 +1,22 @@
 <template>
   <main>
-    <section class="hero">
+    <section class="intro">
       <div class="overlay">
-        <div class="text">
-          <h1 class="max-w-2xl m-auto border-b-2 border-white pb-6">
-            Production Film & TV Sound Mixing, Location Sound Recording, and Gear Rentals
-          </h1>
-          <h4>Based in Spokane, Washington<br />Available for International Travel</h4>
+        <div class="box">
+          <h1>Production Film & TV Sound Mixing, Location Sound Recording, and Gear Rentals</h1>
+          <hr />
+          <h4>Available for International Travel</h4>
+          <h5>Based in Spokane, Washington</h5>
         </div>
       </div>
     </section>
     <section class="jokes" id="joke">
-      <jokes />
+      <div class="box">
+        <jokes />
+      </div>
     </section>
-    <section class="info">
-      <div class="text">
+    <section class="details">
+      <div class="box">
         <p>
           Contract sound mixer for film and TV, based in the Spokane metro area. I provide broadcast-quality sound while
           creating a fun and welcoming work environment.
@@ -33,7 +35,7 @@
     <section class="services">
       <div class="mixing">
         <h2>Audio Mixing</h2>
-        <p>Experienced, high quality mixing services starting at $800 per day.</p>
+        <p>Experienced, high quality mixing services starting at $800/day.</p>
         <nuxt-link class="btn" to="/services#mixing">View Pricing</nuxt-link>
       </div>
       <div class="rentals">
@@ -68,26 +70,24 @@
 </template>
 
 <style lang="postcss" scoped>
-.hero {
+.intro {
+  @apply text-center;
   background: right center / cover no-repeat
     url('https://images.unsplash.com/photo-1632187981988-40f3cbaeef5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=100');
-  .text {
-    @apply text-white text-center py-14 md:py-40;
-  }
 }
 
 .jokes {
   @apply bg-secondary text-white text-center p-6;
 }
 
-.info {
+.details {
   @apply flex bg-white text-dark place-content-center place-items-stretch text-center py-12 px-6 md:py-20;
 
   .text {
     @apply max-w-xl bg-white text-xl;
   }
   hr {
-    @apply my-7 border-accent border-t-2;
+    @apply my-7 border-accent;
   }
   .logo-grid {
     @apply grid grid-cols-2 p-0 md:grid-cols-3;
@@ -102,12 +102,12 @@
 }
 
 .services {
-  @apply grid text-center place-content-stretch place-items-stretch md:grid-cols-2;
+  @apply grid text-center place-content-stretch place-items-stretch lg:grid-cols-2;
   div {
-    @apply grid bg-primary-600 place-content-center place-items-center py-14 px-6 md:py-20;
+    @apply grid bg-primary-600 place-content-center place-items-center py-14 px-6 lg:py-20;
   }
   p {
-    @apply text-lg my-5 mx-auto;
+    @apply text-lg mx-auto;
     max-width: 350px;
   }
   .rentals {

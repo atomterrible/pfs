@@ -2,9 +2,25 @@
   input,
   textarea {
     width: 100%;
-    color: var(--text);
+    color: #000;
     border: var(--border-color) 1px solid;
-    background-color: var(--color-primary-800);
     @apply rounded;
+  }
+
+  input[type='text'],
+  select,
+  textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type='submit'] {
+    @apply text-xl bg-accent py-4 px-6 cursor-pointer text-primary-900;
   }
 }

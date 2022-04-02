@@ -55,6 +55,10 @@
 </template>
 
 <style lang="postcss" scoped>
+.intro {
+  @apply flex flex-col w-full place-content-center place-items-center;
+}
+
 .mixing {
   @apply flex w-full place-content-stretch place-items-stretch flex-col gap-4 lg:flex-row;
 
@@ -62,27 +66,16 @@
     @apply flex w-full place-content-stretch place-items-stretch flex-col gap-4;
 
     div {
-      @apply flex-auto p-6 bg-primary-700 md:p-14;
+      @apply flex-auto p-6 bg-primary-700 lg:p-14;
     }
   }
 }
 
-.intro {
-  @apply flex flex-col w-full place-content-center place-items-center;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  .content {
-    @apply p-20;
-  }
-}
-
 .equipment {
-  @apply grid grid-cols-1 gap-4 md:grid-cols-3;
+  @apply grid grid-cols-1 lg:grid-cols-3 lg:gap-4;
 
   div {
-    @apply p-10 bg-secondary-700;
+    @apply bg-secondary-700 p-6 lg:p-10;
 
     li {
       @apply leading-relaxed;
@@ -94,7 +87,7 @@
   @apply text-dark;
 
   div {
-    @apply p-10 bg-secondary-100;
+    @apply bg-secondary-100 p-6 lg:p-10;
 
     li {
       @apply leading-relaxed;
@@ -103,7 +96,7 @@
 }
 
 .cta {
-  @apply flex place-content-center place-items-center bg-primary-600 p-20;
+  @apply flex place-content-center place-items-center bg-primary-600 p-6 lg:p-20;
 }
 </style>
 
