@@ -23,8 +23,8 @@
       <h5>Policies</h5>
       <nav>
         <ul>
-          <li><nuxt-link to="privacy-policy">Privacy Policy</nuxt-link></li>
-          <li><nuxt-link to="terms-of-service">Terms of Service</nuxt-link></li>
+          <li><nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link></li>
+          <li><nuxt-link to="/terms-of-service">Terms of Service</nuxt-link></li>
         </ul>
       </nav>
     </div>
