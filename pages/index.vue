@@ -59,7 +59,7 @@
               <div class="content">
                 <h2 class="text-4xl">{{ wrk.title }}</h2>
                 <p class="text-xl">{{ wrk.subtitle }}</p>
-                <a :href="`work/${wrk.slug}`" class="btn">View Work</a>
+                <a :href="`/work/${wrk.slug}`" class="btn">View Work</a>
               </div>
             </div>
           </div>
