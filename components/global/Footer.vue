@@ -32,6 +32,7 @@
       <h5>Connect</h5>
       <nav>
         <ul>
+          <li><a href="https://www.imdb.com/name/nm4951110/" target="_blank">IMDB</a></li>
           <li><a href="https://instagram.com/adamcterrell" target="_blank">Instagram</a></li>
           <li><a href="https://www.youtube.com/user/atomterrible" target="_blank">YouTube</a></li>
         </ul>
