@@ -4,7 +4,7 @@
       <h1>Contact</h1>
       <p class="text-xl">
         If you'd like to learn more about my services and pricing, please visit the
-        <a href="/services">Services</a> page. If you'd like to book, please call or text
+        <a href="/services/">Services</a> page. If you'd like to book, please call or text
         <a href="tel:19403674447">940-367-4447</a>. For all other questions, please use the form below.
       </p>
       <br />

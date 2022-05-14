@@ -36,12 +36,12 @@
       <div class="mixing">
         <h2>Audio Mixing</h2>
         <p>Experienced, high quality mixing services starting at $800/day.</p>
-        <nuxt-link class="btn" to="/services#mixing">View Pricing</nuxt-link>
+        <nuxt-link class="btn" to="/services#mixing/">View Pricing</nuxt-link>
       </div>
       <div class="rentals">
         <h2>Gear Rentals</h2>
         <p>Professional film quality equipment packages starting at $250/day.</p>
-        <nuxt-link class="btn" to="/services#rentals">View Gear</nuxt-link>
+        <nuxt-link class="btn" to="/services#rentals/">View Gear</nuxt-link>
       </div>
     </section>
     <section class="featured">
@@ -59,7 +59,7 @@
               <div class="content">
                 <h2 class="text-4xl">{{ wrk.title }}</h2>
                 <p class="text-xl">{{ wrk.subtitle }}</p>
-                <a :href="`/work/${wrk.slug}`" class="btn">View Work</a>
+                <a :href="`/work/${wrk.slug}/`" class="btn">View Work</a>
               </div>
             </div>
           </div>

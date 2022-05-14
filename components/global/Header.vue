@@ -5,10 +5,10 @@
       <nav>
         <ul v-on:click="isHidden = !isHidden">
           <li><nuxt-link to="/">Home</nuxt-link></li>
-          <li><nuxt-link to="/work">Work</nuxt-link></li>
-          <li><nuxt-link to="/services">Services</nuxt-link></li>
-          <li><nuxt-link to="/about">About</nuxt-link></li>
-          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+          <li><nuxt-link to="/work/">Work</nuxt-link></li>
+          <li><nuxt-link to="/services/">Services</nuxt-link></li>
+          <li><nuxt-link to="/about/">About</nuxt-link></li>
+          <li><nuxt-link to="/contact/">Contact</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -20,10 +20,10 @@
         <nav>
           <ul>
             <li><nuxt-link to="/">Home</nuxt-link></li>
-            <li><nuxt-link to="/work">Work</nuxt-link></li>
-            <li><nuxt-link to="/services">Services</nuxt-link></li>
-            <li><nuxt-link to="/about">About</nuxt-link></li>
-            <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+            <li><nuxt-link to="/work/">Work</nuxt-link></li>
+            <li><nuxt-link to="/services/">Services</nuxt-link></li>
+            <li><nuxt-link to="/about/">About</nuxt-link></li>
+            <li><nuxt-link to="/contact/">Contact</nuxt-link></li>
           </ul>
         </nav>
         <button class="btn alt lg:hidden" v-on:click="isHidden = !isHidden">MENU</button>
