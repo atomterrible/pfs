@@ -73,7 +73,24 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxt/content', 'nuxt-purgecss'],
+  modules: ['@nuxt/content', 'nuxt-purgecss', '@nuxtjs/sitemap'],
+  sitemap: {
+    hostname: 'https://profilmsound.com',
+    gzip: true,
+    exclude: [
+      '/404/',
+      '/admin/**'
+    ],
+    routes: [
+      '/about/',
+      '/contact/',
+      '/privacy-policy/',
+      '/services/',
+      '/terms-of-service/',
+      '/work/',
+      '/work/**',
+    ]
+  },
   /*
    ** Build configuration
    */
