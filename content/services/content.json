@@ -136,6 +136,15 @@
             "price": "$7/day"
           }
         ]
+      },
+      {
+        "name": "Mixers/recorders",
+        "items": [
+          {
+            "price": "$70/day",
+            "name": "MixPre6 (w/automix plugin)"
+          }
+        ]
       }
     ]
   }
