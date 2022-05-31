@@ -49,11 +49,11 @@
         "items": [
           {
             "name": "7x Sennheiser evolution wireless channels (2xG2, 4xG3, 1xG4)",
-            "price": "$45/day"
+            "price": "$35/day"
           },
           {
             "name": "1x Sennheiser G4 SKP 100 transmitter",
-            "price": "$30/day"
+            "price": "$35/day"
           },
           {
             "name": "2x URSA LG waist strap",
@@ -91,7 +91,7 @@
         "items": [
           {
             "name": "5x Deity W.lav Pro (w/ Sennheiser microdots)",
-            "price": "$15/day"
+            "price": "$10/day"
           },
           {
             "name": "1x RØDE NT5",
@@ -106,7 +106,7 @@
             "price": "$40/day"
           },
           {
-            "name": "1x Electro-Voice RE50B (standard newscaster handheld)",
+            "name": "2x Electro-Voice RE50B (standard newscaster handheld)",
             "price": "$25/day"
           }
         ]
@@ -128,7 +128,7 @@
         "name": "Headphones",
         "items": [
           {
-            "name": "1x Sony MDR-7506 monitor",
+            "name": "2x Sony MDR-7506 monitor",
             "price": "$10/day"
           },
           {
