@@ -24,6 +24,15 @@
     "subtitle": "Same-Day Delivery and Pickup Offered, 3-Day Weeks",
     "categories": [
       {
+        "name": "Mixers/recorders",
+        "items": [
+          {
+            "price": "$70/day",
+            "name": "MixPre6 (w/automix plugin)"
+          }
+        ]
+      },
+      {
         "name": "Timecode",
         "items": [
           {
@@ -134,15 +143,6 @@
           {
             "name": "1x Halter Technical Elite monitor",
             "price": "$7/day"
-          }
-        ]
-      },
-      {
-        "name": "Mixers/recorders",
-        "items": [
-          {
-            "price": "$70/day",
-            "name": "MixPre6 (w/automix plugin)"
           }
         ]
       }
