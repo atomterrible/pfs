@@ -29,6 +29,7 @@
           <div><img src="img/Advent.jpg" alt="Paramount" /></div>
           <div><img src="img/Bridgestone.jpg" alt="Paramount" /></div>
           <div><img src="img/UNI.jpg" alt="Paramount" /></div>
+          <div class="col-span-2 md:col-span-3"><img class="abc" src="img/ABC.jpg" alt="ABC" /></div>
         </div>
       </div>
     </section>
@@ -90,13 +91,16 @@
     @apply my-7 border-accent;
   }
   .logo-grid {
-    @apply grid grid-cols-2 p-0 md:grid-cols-3;
+    @apply grid grid-cols-2 justify-items-center justify-center p-0 md:grid-cols-3;
     div {
       @apply grid p-0;
     }
     img {
       width: 100%;
       height: auto;
+    }
+    img.abc {
+      @apply h-14 w-auto md:h-16;
     }
   }
 }
