@@ -6,11 +6,11 @@
     "types": [
       {
         "type": "Scripted & Unscripted TV",
-        "pricing": "Starting at $800/day"
+        "pricing": "Starting at $800/day + kit"
       },
       {
         "type": "Narrative Film",
-        "pricing": "Starting at $800/day"
+        "pricing": "Starting at $800/day + kit"
       },
       {
         "type": "International Travel",
@@ -29,6 +29,10 @@
           {
             "price": "$70/day",
             "name": "MixPre6 (w/automix plugin)"
+          },
+          {
+            "name": "MixPre10ii (w/automix plugin)",
+            "price": "$100/day"
           }
         ]
       },
@@ -44,7 +48,7 @@
             "price": "included"
           },
           {
-            "name": "2x Tentacle to BNC",
+            "name": "5x Tentacle to BNC",
             "price": "$3/day"
           },
           {
@@ -56,6 +60,14 @@
       {
         "name": "Wireless & IFB",
         "items": [
+          {
+            "name": "Wisycom MTP60 Transmitter",
+            "price": "$65/day"
+          },
+          {
+            "name": "Wisycom MCR54 Quad Receiver",
+            "price": "$150/day"
+          },
           {
             "name": "7x Sennheiser evolution wireless channels (2xG2, 4xG3, 1xG4)",
             "price": "$35/day"
@@ -99,7 +111,19 @@
         "name": "Microphone",
         "items": [
           {
-            "name": "5x Deity W.lav Pro (w/ Sennheiser microdots)",
+            "name": "Schoeps CMC5U+MK41 supercardioid capsule)",
+            "price": "$65/day"
+          },
+          {
+            "name": "Sennheiser 416P48 Shotgun Microphone",
+            "price": "$50/day"
+          },
+          {
+            "name": "1x DPA6061 lavalier w/microdot",
+            "price": "$50/day"
+          },
+          {
+            "name": "8x Deity W.lav Pro (w/microdot connector)",
             "price": "$10/day"
           },
           {
@@ -141,8 +165,8 @@
             "price": "$10/day"
           },
           {
-            "name": "1x Halter Technical Elite monitor",
-            "price": "$7/day"
+            "name": "10x Halter Technical Scene monitor",
+            "price": "$3/day"
           }
         ]
       }
