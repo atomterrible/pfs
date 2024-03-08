@@ -23,13 +23,15 @@
         </p>
         <hr />
         <div class="logo-grid">
+          <div><img src="img/CBS.jpg" alt="CBS" /></div>
           <div><img src="img/Paramount.jpg" alt="Paramount" /></div>
-          <div><img src="img/Langley.jpg" alt="Paramount" /></div>
-          <div><img src="img/Affirm.jpg" alt="Paramount" /></div>
-          <div><img src="img/Advent.jpg" alt="Paramount" /></div>
-          <div><img src="img/Bridgestone.jpg" alt="Paramount" /></div>
-          <div><img src="img/UNI.jpg" alt="Paramount" /></div>
-          <div class="col-span-2 md:col-span-3"><img class="abc" src="img/ABC.jpg" alt="ABC" /></div>
+          <div><img src="img/Utah-Jazz.jpg" alt="Utah Jazz" /></div>
+          <div><img src="img/Langley.jpg" alt="Langley" /></div>
+          <div><img src="img/Affirm.jpg" alt="Affirm" /></div>
+          <div><img src="img/Bridgestone.jpg" alt="Bridgestone" /></div>
+          <div><img src="img/CW.jpg" alt="CW" /></div>
+          <div><img src="img/UNI.jpg" alt="UNI" /></div>
+          <div><img src="img/ABC.jpg" alt="ABC" /></div>
         </div>
       </div>
     </section>
